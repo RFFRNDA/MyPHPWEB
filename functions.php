@@ -161,7 +161,7 @@ function registrasi($data) {
     mysqli_query($conn, "INSERT INTO users VALUES('','$username','$password')");
     
     return mysqli_affected_rows($conn);
-
+    
 }
 
 
